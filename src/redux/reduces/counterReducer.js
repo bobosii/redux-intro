@@ -1,7 +1,6 @@
 import * as actionTypes from "../actions/actionTypes";
 
-const countReducer = (state = 0, action) => {
-  // reducerin yaptığı mevzu state e göre action belirlemek
+const counterReducer = (state = 0, action) => {
   let newState;
   switch (action.type) {
     case actionTypes.INCREASE_COUNTER:
@@ -15,4 +14,4 @@ const countReducer = (state = 0, action) => {
   }
 };
 
-export default countReducer;
+export default counterReducer;

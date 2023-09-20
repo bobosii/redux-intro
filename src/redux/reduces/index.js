@@ -5,4 +5,4 @@ const reducers = combineReducers({
   counterReducer,
 });
 
-export default reducers
+export default reducers;
